@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoidaX</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>GoidaX</h1>
+    <p class="status" id="status">Готов к обходу</p>
+    
+    <button id="activateBtn" class="big-btn">АКТИВИРОВАТЬ ОБХОД<br><span class="timer" id="timer">60:00</span></button>
+    
+    <div class="options">
+      <button id="customDnsBtn">Собрать свой DNS</button>
+      <button id="openSitesBtn">Открыть заблокированные сайты</button>
+    </div>
+    
+    <div id="log" class="log"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

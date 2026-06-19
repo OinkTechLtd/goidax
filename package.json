@@ -1,0 +1,11 @@
+{
+  "name": "goidax-extension",
+  "version": "1.0.0",
+  "description": "Modern browser extension",
+  "scripts": {
+    "build": "echo 'Build ready - use directly in Chrome'",
+    "update-dns": "node update-dns.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
